@@ -2,6 +2,20 @@ import cv2
 import numpy as np
 import pandas as pd
 import argparse
+import os
+
+
+while True:
+	image = input("Please enter the name of your jpeg file: ")
+	image_name = image +".jpg" #image files should be named: (XXX.jpg)
+	image_path = os.path.join("image/",image_name)
+    
+	if not os.path.isfile(image_path):
+		print("Sorry, that file does not exist. Please make sure that you have added that .jpg file in the 'Image' Subfolder.")
+	else:
+		break
+
+breakpoint
 
 #Creating argument parser to take image path from command line
 ap = argparse.ArgumentParser()
