@@ -10,22 +10,30 @@ Program repo: https://github.com/amynordrum/color-ID-app
 
 Clone or download from project repo site (see above).
 
-Navigate to the project repository from the command line:
+Then navigate there from the command line (subsequent commands assume you are running them from the local repository's root directory):
 
-cd color-ID-app
-
+cd color-id-app 
 
 # Setup 
 
+Download the jpeg you wish to analyze. 
+
+Save the jpeg to the repository folder (for example: color-id-app)
+
 You will need three packages to run this app: pandas, numpy, and open-cv. To install them, use this command: 
 
-pip install opencv-python numpy pandas
+pip install -r requirements.txt
 
 # Usage
 
 To run the program:
 
-python color_detection.py
+python color_detection.py -i [add image file name here]
+
+Double click on the image to identify a color.
+
+
+
 
 # Authors 
 
