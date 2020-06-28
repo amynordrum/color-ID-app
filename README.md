@@ -46,6 +46,8 @@ Pearl Verma and Amy Nordrum
 
 # Acknowledgements
 
+Our project was created using code and instructions from the Data Flair team: 
+
 https://data-flair.training/blogs/project-in-python-colour-detection/?fbclid=IwAR26aLHto_8XRbDRpvLMUPh4RcQ0EA8m1MivpCRtMY0EPsTmp8MUdwJM688
 
 
